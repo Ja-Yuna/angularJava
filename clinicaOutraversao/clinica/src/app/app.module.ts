@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { CadastroContatoComponent } from './cadastro-contato/cadastro-contato.component';
 import { ConsultaContatoComponent } from './consulta-contato/consulta-contato.component';
 import { LoginComponent } from './login/login.component';
+import { EditarMedicoComponent } from './editar-medico/editar-medico.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroContatoComponent,
     ConsultaContatoComponent,
-    LoginComponent
+    LoginComponent,
+    EditarMedicoComponent
   ],
   imports: [
     BrowserModule,

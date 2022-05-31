@@ -9,3 +9,7 @@ input {
     padding: 5px;
     border-radius: 8px;
 }
+
+div.ng-invalid {
+    color: red;
+}

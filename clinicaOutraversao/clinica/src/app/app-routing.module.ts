@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastroContatoComponent } from './cadastro-contato/cadastro-contato.component';
 import { ConsultaContatoComponent } from './consulta-contato/consulta-contato.component';
+import { EditarMedicoComponent } from './editar-medico/editar-medico.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
@@ -22,6 +23,11 @@ const routes: Routes = [
     path: 'login',
     component: LoginComponent
   },
+
+  {
+    path:'cadastro/:idcontato',
+    component: EditarMedicoComponent
+  }
 ];
 
 @NgModule({
