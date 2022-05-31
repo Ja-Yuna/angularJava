@@ -4,8 +4,9 @@
     margin: auto;
 }
 
-.container h1 {
+.container h4 {
     text-align: center;
+    color: #0070AD;
 }
 
 button {

@@ -9,6 +9,9 @@ import { CadastroContatoComponent } from './cadastro-contato/cadastro-contato.co
 import { ConsultaContatoComponent } from './consulta-contato/consulta-contato.component';
 import { LoginComponent } from './login/login.component';
 import { EditarMedicoComponent } from './editar-medico/editar-medico.component';
+import { RegistrarUsuarioComponent } from './registrar-usuario/registrar-usuario.component';
+import { ConsultaUsuarioComponent } from './consulta-usuario/consulta-usuario.component';
+import { EditaUsuarioComponent } from './edita-usuario/edita-usuario.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { EditarMedicoComponent } from './editar-medico/editar-medico.component';
     CadastroContatoComponent,
     ConsultaContatoComponent,
     LoginComponent,
-    EditarMedicoComponent
+    EditarMedicoComponent,
+    RegistrarUsuarioComponent,
+    ConsultaUsuarioComponent,
+    EditaUsuarioComponent
   ],
   imports: [
     BrowserModule,

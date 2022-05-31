@@ -8,9 +8,10 @@ input {
     box-sizing: border-box;
     margin-top: 1%;
     display: block;
-    width: 100%;
+    width: 50%;
     margin-bottom: 5px;
     border-radius: 8px;
+    margin-left: 25%;
    
   }
   button {
@@ -25,4 +26,10 @@ input {
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
+    margin-left: 40%;
+    border-style: double;
+  }
+
+  a {
+    margin-left: 40%;
   }
